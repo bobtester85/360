@@ -1,0 +1,74 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px; //1rem = 10px , 10px / 16px = 62.5%
+}
+
+body {
+  font-family: $font-omnes;
+  font-weight: normal;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+  min-height: 100vh;
+
+  @media only screen and (max-width: $breakpoint-medium) {
+    font-weight: normal;
+    line-height: 2.2rem;
+    font-size: 1.5rem;
+    }
+
+}
+
+h1{
+  font-family: $font-omnes-medium;
+  font-size: 5.6rem;
+  font-weight: normal;
+  line-height: 5.4rem;
+
+  @media only screen and (max-width: $breakpoint-medium) {
+  font-size: 3rem;
+  line-height: 3rem;
+  }
+}
+
+h2{
+  font-family: $font-omnes-medium;
+  font-size: 3.4rem;
+  font-weight: normal;
+  line-height: 3rem;
+
+  @media only screen and (max-width: $breakpoint-medium) {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  }
+}
+
+h3{
+  font-size: 3.4rem;
+  font-weight: normal;
+  line-height: 2.8rem;
+
+  @media only screen and (max-width: $breakpoint-medium) {
+  font-size: 2rem;
+  font-weight: medium;
+  line-height: 2.2rem;
+  }
+}
+
+.caption{
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+

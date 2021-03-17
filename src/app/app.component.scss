@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+
+    &-container {
+        width: 84%;
+        max-width: 180rem;
+        height: 100%;
+        min-height: 100%;
+    }
+}
